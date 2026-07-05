@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://locallink-c4lr.onrender.com",
+  baseURL: "https://locallink-c4lr.onrender.com/api",
 });
 
 // Attach token on every request
